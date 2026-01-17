@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0D50369-E3BF-E967-F080-0289C24E94C0}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\viewmodels\\centerradiusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0D50369-E3BF-E967-F080-0289C24E94C0}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\viewmodels\\centerradiusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0D50369-E3BF-E967-F080-0289C24E94C0}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0D50369-E3BF-E967-F080-0289C24E94C0}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0D50369-E3BF-E967-F080-0289C24E94C0}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0D50369-E3BF-E967-F080-0289C24E94C0}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0D50369-E3BF-E967-F080-0289C24E94C0}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C0D50369-E3BF-E967-F080-0289C24E94C0}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\views\\corneroppositepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\views\\corneroppositepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\views\\centerradiuspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\views\\centerradiuspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\viewmodels\\centerradiusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\viewmodels\\centerradiusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\viewmodels\\corneroppositeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\viewmodels\\corneroppositeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\views\\centerradiuspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\views\\centerradiuspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\views\\corneroppositepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\views\\corneroppositepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|c:\\users\\donjohnson\\documents\\source\\repos\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9DC8962E-6363-FB38-8300-25E36BF183DA}|WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj|solutionrelative:winuiappnavviewwithusercontrolitems\\winuiappnavviewwithusercontrolitems.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,55 +74,147 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CenterRadiusViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\ViewModels\\CenterRadiusViewModel.cs",
-              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\ViewModels\\CenterRadiusViewModel.cs",
-              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\ViewModels\\CenterRadiusViewModel.cs",
-              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\ViewModels\\CenterRadiusViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml.cs",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\App.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAjwC0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T22:51:18.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml",
-              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml",
-              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml",
-              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-17T22:47:47.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T22:38:56.171Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "WinUIAppNavViewWithUserControlItems.csproj",
-              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj",
-              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj",
-              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj*",
-              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-17T22:46:49.122Z",
+              "Title": "CornerOppositePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\Views\\CornerOppositePage.xaml.cs",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\Views\\CornerOppositePage.xaml.cs",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\Views\\CornerOppositePage.xaml.cs",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\Views\\CornerOppositePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T22:38:31.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CenterRadiusPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\Views\\CenterRadiusPage.xaml.cs",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\Views\\CenterRadiusPage.xaml.cs",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\Views\\CenterRadiusPage.xaml.cs",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\Views\\CenterRadiusPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T22:37:41.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\App.xaml",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-17T22:36:12.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CornerOppositePage.xaml",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\Views\\CornerOppositePage.xaml",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\Views\\CornerOppositePage.xaml",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\Views\\CornerOppositePage.xaml",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\Views\\CornerOppositePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-17T22:36:01.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CenterRadiusPage.xaml",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\Views\\CenterRadiusPage.xaml",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\Views\\CenterRadiusPage.xaml",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\Views\\CenterRadiusPage.xaml",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\Views\\CenterRadiusPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-17T22:35:43.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CornerOppositeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\ViewModels\\CornerOppositeViewModel.cs",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\ViewModels\\CornerOppositeViewModel.cs",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\ViewModels\\CornerOppositeViewModel.cs",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\ViewModels\\CornerOppositeViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T22:35:20.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CenterRadiusViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\ViewModels\\CenterRadiusViewModel.cs",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\ViewModels\\CenterRadiusViewModel.cs",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\ViewModels\\CenterRadiusViewModel.cs",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\ViewModels\\CenterRadiusViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T22:34:54.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T22:33:45.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\MainWindow.xaml",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-17T22:32:31.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml.cs",
-              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml.cs",
-              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T22:44:20.509Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\app.manifest",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\app.manifest",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\app.manifest",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2026-01-17T22:27:38.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WinUIAppNavViewWithUserControlItems",
+              "DocumentMoniker": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj",
+              "RelativeDocumentMoniker": "WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj",
+              "ToolTip": "C:\\Users\\DonJohnson\\Documents\\source\\repos\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj",
+              "RelativeToolTip": "WinUIAppNavViewWithUserControlItems\\WinUIAppNavViewWithUserControlItems.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-17T22:27:32.165Z"
             }
           ]
         }

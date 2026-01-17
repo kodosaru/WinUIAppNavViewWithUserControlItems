@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WinUIAppNavViewWithUserControlItems (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WinUIAppNavViewWithUserControlItems (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
