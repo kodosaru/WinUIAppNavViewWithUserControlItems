@@ -1,0 +1,33 @@
+<Page
+    x:Class="WinUIAppNavViewWithUserControlItems.Views.CenterRadiusPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:WinUIAppNavViewWithUserControlItems.ViewModels"
+    mc:Ignorable="d">
+
+    <StackPanel Spacing="20" Padding="20">
+
+        <StackPanel Spacing="10" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="1" Padding="15" CornerRadius="8">
+            <TextBlock Text="Center" Style="{StaticResource SubtitleTextBlockStyle}" />
+
+            <NumberBox Header="X" Value="{x:Bind ViewModel.CenterX, Mode=TwoWay}" 
+                       Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
+
+            <NumberBox Header="Y" Value="{x:Bind ViewModel.CenterY, Mode=TwoWay}" 
+                       Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
+
+            <NumberBox Header="Z" Value="{x:Bind ViewModel.CenterZ, Mode=TwoWay}" 
+                       Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
+        </StackPanel>
+
+        <StackPanel Spacing="10" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="1" Padding="15" CornerRadius="8">
+            <TextBlock Text="Radius" Style="{StaticResource SubtitleTextBlockStyle}" />
+
+            <NumberBox Header="Value" Value="{x:Bind ViewModel.Radius, Mode=TwoWay}" 
+                       Minimum="1" SpinButtonPlacementMode="Inline" />
+        </StackPanel>
+
+    </StackPanel>
+</Page>

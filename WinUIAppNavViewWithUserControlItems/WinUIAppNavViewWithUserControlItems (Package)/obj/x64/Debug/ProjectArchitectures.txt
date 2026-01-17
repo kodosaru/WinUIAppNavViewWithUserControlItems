@@ -1,0 +1,1 @@
+C:\Users\DonJohnson\Documents\source\repos\WinUIAppNavViewWithUserControlItems\WinUIAppNavViewWithUserControlItems\WinUIAppNavViewWithUserControlItems (Package)\WinUIAppNavViewWithUserControlItems (Package).wapproj;x64

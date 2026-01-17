@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="WinUIAppNavViewWithUserControlItems" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://WinUIAppNavViewWithUserControlItems/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainWindow.xbf" uri="ms-resource://WinUIAppNavViewWithUserControlItems/Files/MainWindow.xbf">
+				<Candidate type="Path">
+					<Value>MainWindow.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Views">
+				<NamedResource name="CenterRadiusPage.xbf" uri="ms-resource://WinUIAppNavViewWithUserControlItems/Files/Views/CenterRadiusPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\CenterRadiusPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CornerOppositePage.xbf" uri="ms-resource://WinUIAppNavViewWithUserControlItems/Files/Views/CornerOppositePage.xbf">
+					<Candidate type="Path">
+						<Value>Views\CornerOppositePage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
