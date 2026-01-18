@@ -1,16 +1,21 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using System;
+using WinUIAppNavViewWithUserControlItems.ViewModels;
 using WinUIAppNavViewWithUserControlItems.Views;
 
 namespace WinUIAppNavViewWithUserControlItems
 {
     public sealed partial class MainWindow : Window
     {
+        public CenterRadiusViewModel CenterRadiusViewModel { get; }
+
         public MainWindow()
         {
             this.InitializeComponent();
             this.Title = "WinUI 3 MVVM Example";
+            CenterRadiusViewModel = new CenterRadiusViewModel();
+            RootGrid.DataContext = CenterRadiusViewModel;
         }
 
         private void NavView_Loaded(object sender, RoutedEventArgs e)
