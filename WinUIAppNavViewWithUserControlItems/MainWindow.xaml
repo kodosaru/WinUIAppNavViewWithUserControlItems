@@ -4,6 +4,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="using:WinUIAppNavViewWithUserControlItems"
+    xmlns:viewmodels="using:WinUIAppNavViewWithUserControlItems.ViewModels"
+    d:DataContext="{d:DesignInstance Type=viewmodels:CenterRadiusViewModel}"
     mc:Ignorable="d">
 
     <Grid>
@@ -15,6 +18,39 @@
                 <NavigationViewItem Icon="Map" Content="Center &amp; Radius" Tag="CenterRadiusPage" />
 
                 <NavigationViewItem Icon="Crop" Content="Corner &amp; Opposite" Tag="CornerOppositePage" />
+                <NavigationViewItem SelectsOnInvoked="False">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <FontIcon Glyph="&#xE713;" />
+                        <TextBlock Text="Enable Feature" />
+                        <ToggleSwitch OnContent="On" OffContent="Off"/>
+                    </StackPanel>
+                </NavigationViewItem>
+                <NavigationViewItem SelectsOnInvoked="False">
+
+                    <StackPanel Spacing="20" Padding="20">
+
+                        <StackPanel Spacing="10" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="1" Padding="15" CornerRadius="8">
+                            <TextBlock Text="Center" Style="{StaticResource SubtitleTextBlockStyle}" />
+
+                            <NumberBox Header="X" Value="{Binding CenterX, Mode=TwoWay}" 
+                       Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
+
+                            <NumberBox Header="Y" Value="{Binding CenterY, Mode=TwoWay}" 
+                       Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
+
+                            <NumberBox Header="Z" Value="{Binding CenterZ, Mode=TwoWay}" 
+                       Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
+                        </StackPanel>
+
+                        <StackPanel Spacing="10" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="1" Padding="15" CornerRadius="8">
+                            <TextBlock Text="Radius" Style="{StaticResource SubtitleTextBlockStyle}" />
+
+                            <NumberBox Header="Value" Value="{Binding Radius, Mode=TwoWay}" 
+                       Minimum="1" SpinButtonPlacementMode="Inline" />
+                        </StackPanel>
+
+                    </StackPanel>
+                </NavigationViewItem>
             </NavigationView.MenuItems>
 
             <Frame x:Name="ContentFrame" />
