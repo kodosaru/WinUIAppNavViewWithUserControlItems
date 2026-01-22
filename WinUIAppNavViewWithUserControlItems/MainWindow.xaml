@@ -35,17 +35,17 @@
                             <NumberBox Header="X" Value="{x:Bind CenterRadiusViewModel.CenterX, Mode=TwoWay}" 
                        Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
 
-                            <NumberBox Header="Y" Value="{x:Bind CenterRadiusViewModel.CenterY, Mode=TwoWay}" 
+                            <NumberBox Header="Y" Value="{Binding CenterRadiusViewModel.CenterY, Mode=TwoWay}" 
                        Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
 
-                            <NumberBox Header="Z" Value="{x:Bind CenterRadiusViewModel.CenterZ, Mode=TwoWay}" 
+                            <NumberBox Header="Z" Value="{Binding CenterRadiusViewModel.CenterZ, Mode=TwoWay}" 
                        Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
                         </StackPanel>
 
                         <StackPanel Spacing="10" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="1" Padding="15" CornerRadius="8">
                             <TextBlock Text="Radius" Style="{StaticResource SubtitleTextBlockStyle}" />
 
-                            <NumberBox Header="Value" Value="{x:Bind CenterRadiusViewModel.Radius, Mode=TwoWay}" 
+                            <NumberBox Header="Value" Value="{Binding CenterRadiusViewModel.Radius, Mode=TwoWay}" 
                        Minimum="1" SpinButtonPlacementMode="Inline" />
                         </StackPanel>
 
