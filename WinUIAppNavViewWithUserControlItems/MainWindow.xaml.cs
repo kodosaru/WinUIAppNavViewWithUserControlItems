@@ -32,11 +32,14 @@ namespace WinUIAppNavViewWithUserControlItems
             }
             else if (args.SelectedItem is NavigationViewItem selectedItem)
             {
-                string pageTag = selectedItem.Tag.ToString();
-                Type pageType = null;
+                string? pageTag = selectedItem.Tag.ToString();
+                Type? pageType = null;
 
                 switch (pageTag)
                 {
+                    case "MainPage":
+                        pageType = typeof(MainPage);
+                        break;
                     case "CenterRadiusPage":
                         pageType = typeof(CenterRadiusPage);
                         break;
