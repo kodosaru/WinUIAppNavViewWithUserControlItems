@@ -13,13 +13,13 @@
         <StackPanel Spacing="10" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="1" Padding="15" CornerRadius="8">
             <TextBlock Text="Center" Style="{StaticResource SubtitleTextBlockStyle}" />
 
-            <NumberBox Header="X" Value="{x:Bind ViewModel.CenterX, Mode=TwoWay}" 
+            <NumberBox Header="X" Value="{x:Bind ViewModel.Degrees, Mode=TwoWay}" 
                        Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
 
-            <NumberBox Header="Y" Value="{x:Bind ViewModel.CenterY, Mode=TwoWay}" 
+            <NumberBox Header="Y" Value="{x:Bind ViewModel.Minutes, Mode=TwoWay}" 
                        Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
 
-            <NumberBox Header="Z" Value="{x:Bind ViewModel.CenterZ, Mode=TwoWay}" 
+            <NumberBox Header="Z" Value="{x:Bind ViewModel.Seconds, Mode=TwoWay}" 
                        Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
         </StackPanel>
 

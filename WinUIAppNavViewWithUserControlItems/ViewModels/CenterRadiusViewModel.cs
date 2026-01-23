@@ -7,63 +7,63 @@ namespace WinUIAppNavViewWithUserControlItems.ViewModels
     public partial class CenterRadiusViewModel : INotifyPropertyChanged 
     {
         // Center Group: Integers 0-60
-        private double _centerX;
-        public double CenterX
+        private double _degrees;
+        public double Degrees
         {
             get
             {
-                string msg = $"Property CenterX with value {_centerX} accessed";
+                string msg = $"Property CenterX with value {_degrees} accessed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                return _centerX;
+                return _degrees;
             }
             set
             {
-                string msg = $"Property CenterX with value {_centerX} changed";
+                string msg = $"Property CenterX with value {_degrees} changed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                _centerX = value;
-                OnPropertyChanged(nameof(CenterX));
+                _degrees = value;
+                OnPropertyChanged(nameof(Degrees));
             }
         }
 
-        private double _centerY;
-        public double CenterY
+        private double _minutes;
+        public double Minutes
         {
             get
             {
-                string msg = $"Property CenterY with value {_centerY} accessed";
+                string msg = $"Property Minutes with value {_minutes} accessed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                return _centerY;
+                return _minutes;
             }
             set
             {
-                string msg = $"Property CenterY with value {_centerY} changed";
+                string msg = $"Property Minutes with value {_minutes} changed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                _centerY = value;
-                OnPropertyChanged(nameof(CenterY));
+                _minutes = value;
+                OnPropertyChanged(nameof(Minutes));
             }
         }
 
-        private double _centerZ;
-        public double CenterZ
+        private double _seconds;
+        public double Seconds
         {
             get
             {
-                string msg = $"Property CenterZ with value {_centerZ} accessed";
+                string msg = $"Property Seconds with value {_seconds} accessed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                return _centerZ;
+                return _seconds;
             }
             set
             {
-                string msg = $"Property CenterZ with value {_centerZ} changed";
+                string msg = $"Property Seconds with value {_seconds} changed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                _centerZ = value;
-                OnPropertyChanged(nameof(CenterZ));
+                _seconds = value;
+                OnPropertyChanged(nameof(Seconds));
             }
         }
 
