@@ -1,11 +1,93 @@
-﻿using Serilog;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Diagnostics;
+using Serilog;
 
 namespace WinUIAppNavViewWithUserControlItems.ViewModels
 {
-    public partial class CornerOppositeViewModel : INotifyPropertyChanged  
+    public partial class MainWindowViewModel : INotifyPropertyChanged 
     {
+        // Center Group: Integers 0-60
+        private double _cdegrees;
+        public double Cdegrees
+        {
+            get
+            {
+                string msg = $"Property Cdegrees with value {_cdegrees} accessed";
+                Log.Information(msg);
+                Debug.WriteLine(msg);
+                return _cdegrees;
+            }
+            set
+            {
+                string msg = $"Property Cdegrees with value {_cdegrees} changed";
+                Log.Information(msg);
+                Debug.WriteLine(msg);
+                _cdegrees = value;
+                OnPropertyChanged(nameof(Cdegrees));
+            }
+        }
+
+        private double _cminutes;
+        public double Cminutes
+        {
+            get
+            {
+                string msg = $"Property Cminutes with value {_cminutes} accessed";
+                Log.Information(msg);
+                Debug.WriteLine(msg);
+                return _cminutes;
+            }
+            set
+            {
+                string msg = $"Property Cminutes with value {_cminutes} changed";
+                Log.Information(msg);
+                Debug.WriteLine(msg);
+                _cminutes = value;
+                OnPropertyChanged(nameof(Cminutes));
+            }
+        }
+
+        private double _cseconds;
+        public double Cseconds
+        {
+            get
+            {
+                string msg = $"Property Cseconds with value {_cseconds} accessed";
+                Log.Information(msg);
+                Debug.WriteLine(msg);
+                return _cseconds;
+            }
+            set
+            {
+                string msg = $"Property Cseconds with value {_cseconds} changed";
+                Log.Information(msg);
+                Debug.WriteLine(msg);
+                _cseconds = value;
+                OnPropertyChanged(nameof(Cseconds));
+            }
+        }
+
+        // Radius Group: Positive Integer > 0 (Default to 1)
+        private double _radius = 1;
+        public double Radius
+        {
+            get
+            {
+                string msg = $"Property Radius with value {_radius} accessed";
+                Log.Information(msg);
+                Debug.WriteLine(msg);
+                return _radius;
+            }
+            set
+            {
+                string msg = $"Property Radius with value {_radius} changed";
+                Log.Information(msg);
+                Debug.WriteLine(msg);
+                _radius = value;
+                OnPropertyChanged(nameof(Radius));
+            }
+        }
+
         double _degrees;
         public double Degrees
         {
@@ -71,14 +153,14 @@ namespace WinUIAppNavViewWithUserControlItems.ViewModels
         {
             get
             {
-                string msg = $"Property CenterX with value {_degrees} accessed";
+                string msg = $"Property OppositeDegrees with value {_oppositeDegrees} accessed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
                 return _oppositeDegrees;
             }
             set
             {
-                string msg = $"Property CenterX with value {_degrees} changed";
+                string msg = $"Property OppositeDegrees with value {_oppositeDegrees} changed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
                 _oppositeDegrees = value;
@@ -98,7 +180,7 @@ namespace WinUIAppNavViewWithUserControlItems.ViewModels
             }
             set
             {
-                string msg = $"Property Minutes with value {_oppositeMinutes} changed";
+                string msg = $"Property OppositeMinutes with value {_oppositeMinutes} changed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
                 _oppositeMinutes = value;
@@ -111,22 +193,24 @@ namespace WinUIAppNavViewWithUserControlItems.ViewModels
         {
             get
             {
-                string msg = $"Property Seconds with value {_oppositeSeconds} accessed";
+                string msg = $"Property OppositeSeconds with value {_oppositeSeconds} accessed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
                 return _oppositeSeconds;
             }
             set
             {
-                string msg = $"Property Seconds with value {_oppositeSeconds} changed";
+                string msg = $"Property OppositeSeconds with value {_oppositeSeconds} changed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
                 _oppositeSeconds = value;
                 OnPropertyChanged(nameof(OppositeSeconds));
             }
         }
+
         public event PropertyChangedEventHandler? PropertyChanged;
         public void OnPropertyChanged(string propertyName) =>
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
     }
 }

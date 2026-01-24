@@ -6,63 +6,62 @@ namespace WinUIAppNavViewWithUserControlItems.ViewModels
 {
     public partial class CenterRadiusViewModel : INotifyPropertyChanged 
     {
-        // Center Group: Integers 0-60
-        private double _degrees;
+        private double _cdegrees;
         public double Degrees
         {
             get
             {
-                string msg = $"Property CenterX with value {_degrees} accessed";
+                string msg = $"Property CenterX with value {_cdegrees} accessed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                return _degrees;
+                return _cdegrees;
             }
             set
             {
-                string msg = $"Property CenterX with value {_degrees} changed";
+                string msg = $"Property CenterX with value {_cdegrees} changed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                _degrees = value;
+                _cdegrees = value;
                 OnPropertyChanged(nameof(Degrees));
             }
         }
 
-        private double _minutes;
+        private double _cminutes;
         public double Minutes
         {
             get
             {
-                string msg = $"Property Minutes with value {_minutes} accessed";
+                string msg = $"Property Minutes with value {_cminutes} accessed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                return _minutes;
+                return _cminutes;
             }
             set
             {
-                string msg = $"Property Minutes with value {_minutes} changed";
+                string msg = $"Property Minutes with value {_cminutes} changed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                _minutes = value;
+                _cminutes = value;
                 OnPropertyChanged(nameof(Minutes));
             }
         }
 
-        private double _seconds;
+        private double _cseconds;
         public double Seconds
         {
             get
             {
-                string msg = $"Property Seconds with value {_seconds} accessed";
+                string msg = $"Property Seconds with value {_cseconds} accessed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                return _seconds;
+                return _cseconds;
             }
             set
             {
-                string msg = $"Property Seconds with value {_seconds} changed";
+                string msg = $"Property Seconds with value {_cseconds} changed";
                 Log.Information(msg);
                 Debug.WriteLine(msg);
-                _seconds = value;
+                _cseconds = value;
                 OnPropertyChanged(nameof(Seconds));
             }
         }
@@ -89,7 +88,7 @@ namespace WinUIAppNavViewWithUserControlItems.ViewModels
         }
 
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
         public void OnPropertyChanged(string propertyName) =>
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 

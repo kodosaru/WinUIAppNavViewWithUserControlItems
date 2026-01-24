@@ -9,24 +9,29 @@
     mc:Ignorable="d">
 
     <StackPanel Spacing="20" Padding="20">
+        <StackPanel.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="FontSize" Value="10" />
+            </Style>
+        </StackPanel.Resources>
 
         <StackPanel Spacing="10" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="1" Padding="15" CornerRadius="8">
-            <TextBlock Text="Center" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <TextBlock Text="Center (dms)"/>
 
-            <NumberBox Header="X" Value="{x:Bind ViewModel.Degrees, Mode=TwoWay}" 
-                       Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
+            <NumberBox Value="{x:Bind ViewModel.Degrees, Mode=TwoWay}" 
+                       Minimum="-180" Maximum="180" SpinButtonPlacementMode="Inline" />
 
-            <NumberBox Header="Y" Value="{x:Bind ViewModel.Minutes, Mode=TwoWay}" 
-                       Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
+            <NumberBox Value="{x:Bind ViewModel.Minutes, Mode=TwoWay}" 
+                       Minimum="-90" Maximum="90" SpinButtonPlacementMode="Inline" />
 
-            <NumberBox Header="Z" Value="{x:Bind ViewModel.Seconds, Mode=TwoWay}" 
-                       Minimum="0" Maximum="60" SpinButtonPlacementMode="Inline" />
+            <NumberBox Value="{x:Bind ViewModel.Seconds, Mode=TwoWay}" 
+                       Minimum="-90" Maximum="90" SpinButtonPlacementMode="Inline" />
         </StackPanel>
 
         <StackPanel Spacing="10" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="1" Padding="15" CornerRadius="8">
-            <TextBlock Text="Radius" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <TextBlock Text="Radius (miles)"/>
 
-            <NumberBox Header="Value" Value="{x:Bind ViewModel.Radius, Mode=TwoWay}" 
+            <NumberBox Value="{x:Bind ViewModel.Radius, Mode=TwoWay}" 
                        Minimum="1" SpinButtonPlacementMode="Inline" />
         </StackPanel>
 

@@ -1,6 +1,10 @@
+using Microsoft.UI.Input;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Input;
 using System;
+using System.Diagnostics;
+using System.Linq;
 using WinUIAppNavViewWithUserControlItems.ViewModels;
 using WinUIAppNavViewWithUserControlItems.Views;
 
@@ -8,14 +12,55 @@ namespace WinUIAppNavViewWithUserControlItems
 {
     public sealed partial class MainWindow : Window
     {
-        public CenterRadiusViewModel CenterRadiusViewModel { get; }
+        public MainWindowViewModel MainWindowViewModel { get; }
 
         public MainWindow()
         {
             this.InitializeComponent();
             this.Title = "WinUI 3 MVVM Example";
-            CenterRadiusViewModel = new CenterRadiusViewModel();
-            RootGrid.DataContext = CenterRadiusViewModel;
+            MainWindowViewModel = new MainWindowViewModel();
+            RootGrid.DataContext = MainWindowViewModel;
+        }
+
+        private void OnDrawingItemClicked(object sender, PointerRoutedEventArgs e)
+        {
+            if (e.Pointer.PointerDeviceType == (PointerDeviceType)Windows.Devices.Input.PointerDeviceType.Mouse)
+            {
+                var clickedItem = sender as NavigationViewItem;
+                if (clickedItem == DrawingItem && DrawingOffItem.IsSelected == false)
+                {
+                    Debug.WriteLine($"Mouse clicked on: {clickedItem.Content}");
+                }
+            }
+        }
+
+        private NavigationViewItem DrawingItem
+        {
+            get
+            {
+                NavigationViewItem? drawingItem = null;
+                var items = NavView.MenuItems;
+                if (items.Count > 0)
+                {
+                    drawingItem = items.OfType<NavigationViewItem>().FirstOrDefault(item => (string)item.Tag == "SearchByDrawing");
+                }
+                return drawingItem;
+            }
+        }
+
+        private NavigationViewItem DrawingOffItem
+        {
+            get
+            {
+                NavigationViewItem? drawingOffItem = null;
+                var items = NavView.MenuItems;
+                if (items.Count > 0)
+                {
+                    drawingOffItem = DrawingItem.MenuItems
+                            .OfType<NavigationViewItem>().FirstOrDefault(item => (string)item.Tag == "DrawingOff");
+                }
+                return drawingOffItem;
+            }
         }
 
         private void NavView_Loaded(object sender, RoutedEventArgs e)
