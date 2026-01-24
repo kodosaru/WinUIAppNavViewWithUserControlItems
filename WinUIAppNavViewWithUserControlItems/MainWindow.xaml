@@ -12,21 +12,6 @@
 
     <Grid x:Name="RootGrid">
         <Grid.Resources>
-            <Style TargetType="controls:HeaderedContentControl">
-                <Setter Property="Template">
-                    <Setter.Value>
-                        <ControlTemplate TargetType="HeaderedContentControl">
-                            <StackPanel>
-                                <ContentPresenter Content="{TemplateBinding Header}"
-                                        ContentTemplate="{TemplateBinding HeaderTemplate}"
-                                        Margin="0,0,0,8"/>
-                                <ContentPresenter Content="{TemplateBinding Content}"
-                                        ContentTemplate="{TemplateBinding ContentTemplate}"/>
-                            </StackPanel>
-                        </ControlTemplate>
-                    </Setter.Value>
-                </Setter>
-            </Style>
         </Grid.Resources>
         
         <NavigationView x:Name="NavView"
@@ -50,7 +35,6 @@
                         <FontIcon Glyph="&#xEB3C;" />
                     </NavigationViewItem.Icon>
                     <NavigationViewItem.MenuItems>
-                        <NavigationViewItem>
                             <NavigationViewItem
                                 x:Name="SearchByDrawingCircle"
                                 AutomationProperties.AutomationId="SearchByDrawingCircle"
@@ -78,8 +62,43 @@
                                     </StackPanel>
                                 </NavigationViewItem.Content>
                             </NavigationViewItem>
-                        </NavigationViewItem>
-                    </NavigationViewItem.MenuItems>
+                            <NavigationViewItem
+                                x:Name="SearchByDrawingRectangle"
+                                AutomationProperties.AutomationId="SearchByDrawingRectangle"
+                                Tag="SearchByDrawRectangle"
+                                PointerPressed="OnDrawingItemClicked">
+                                <NavigationViewItem.Content>
+                                    <StackPanel Orientation="Vertical" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="2" Padding="15" CornerRadius="8">
+                                        <TextBlock Text="Rectangle" VerticalAlignment="Center" FontFamily="Arial Black"/>
+                                        <StackPanel Spacing="10" Orientation="Horizontal">
+                                            <TextBlock Text="Corner (dms)" VerticalAlignment="Center"/>
+                                            <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.Degrees, Mode=TwoWay}" 
+                                               Minimum="-180" Maximum="180" SpinButtonPlacementMode="Compact" />
+                                            <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.Minutes, Mode=TwoWay}" 
+                                                Minimum="0" Maximum="60" SpinButtonPlacementMode="Compact" />
+                                            <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.Seconds, Mode=TwoWay}" 
+                                                Minimum="0" Maximum="60" SpinButtonPlacementMode="Compact" />
+                                        </StackPanel>
+
+                                        <StackPanel Spacing="10" Orientation="Horizontal">
+                                            <TextBlock Text="Opposite (dms)" VerticalAlignment="Center" />
+                                            <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.OppositeDegrees, Mode=TwoWay}" 
+                                                Minimum="-180" Maximum="180" SpinButtonPlacementMode="Compact" />
+                                            <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.OppositeMinutes, Mode=TwoWay}" 
+                                                Minimum="0" Maximum="60" SpinButtonPlacementMode="Compact" />
+                                            <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.OppositeSeconds, Mode=TwoWay}" 
+                                                Minimum="0" Maximum="60" SpinButtonPlacementMode="Compact" />
+                                            </StackPanel>
+                                    </StackPanel>
+                                </NavigationViewItem.Content>
+                            </NavigationViewItem>
+                            <NavigationViewItem
+                                x:Name="DrawingOff"
+                                AutomationProperties.AutomationId="DrawingOff"
+                                Content="--Drawing Off--"
+                                Tag="DrawingOff"
+                                PointerPressed="OnDrawingItemClicked" />
+                        </NavigationViewItem.MenuItems>
 
                 </NavigationViewItem>
 
