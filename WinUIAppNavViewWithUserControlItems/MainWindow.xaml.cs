@@ -5,6 +5,7 @@ using Microsoft.UI.Xaml.Input;
 using System;
 using System.Diagnostics;
 using System.Linq;
+using CommunityToolkit.WinUI.Controls;
 using WinUIAppNavViewWithUserControlItems.ViewModels;
 using WinUIAppNavViewWithUserControlItems.Views;
 
