@@ -10,7 +10,7 @@
 
     <Grid>
         <Image Source="ms-appx:///Assets/The_Earth_seen_from_Apollo_17.jpg" 
-               Stretch="Uniform"
+               Stretch="UniformToFill"
                HorizontalAlignment="Center"
                VerticalAlignment="Center" />
     </Grid>

@@ -5,7 +5,6 @@ using Microsoft.UI.Xaml.Input;
 using System;
 using System.Diagnostics;
 using System.Linq;
-using CommunityToolkit.WinUI.Controls;
 using WinUIAppNavViewWithUserControlItems.ViewModels;
 using WinUIAppNavViewWithUserControlItems.Views;
 
@@ -20,7 +19,7 @@ namespace WinUIAppNavViewWithUserControlItems
             this.InitializeComponent();
             this.Title = "WinUI 3 MVVM Example";
             MainWindowViewModel = new MainWindowViewModel();
-            RootGrid.DataContext = MainWindowViewModel;
+            NavView.DataContext = MainWindowViewModel;
         }
 
         private void OnDrawingItemClicked(object sender, PointerRoutedEventArgs e)
