@@ -43,24 +43,23 @@
                                 Tag="SearchByDrawingCircle"
                                 PointerPressed="OnDrawingItemClicked">
                             <NavigationViewItem.Content>
-                                <StackPanel Orientation="Vertical" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="2" Padding="15" CornerRadius="8">
+                                <StackPanel Orientation="Vertical" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="2" Padding="5" CornerRadius="8">
                                     <TextBlock Text="Circle" VerticalAlignment="Center" FontFamily="Arial Black"/>
-                                    <StackPanel Spacing="10" Orientation="Horizontal">
-                                        <TextBlock Text="Center (dms)" VerticalAlignment="Center" Padding="0,0,7,0"/>
-
+                                    <StackPanel Margin="0,0,0,5" Spacing="10" Orientation="Horizontal">
+                                        <TextBlock Padding="0,0,6,0" Text="Center (dms)" VerticalAlignment="Center"/>
                                         <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.Cdegrees, Mode=TwoWay}" 
                                                Minimum="-180" Maximum="180" SpinButtonPlacementMode="Compact" />
 
                                         <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.Cminutes, Mode=TwoWay}" 
                                                Minimum="-90" Maximum ="90" SpinButtonPlacementMode="Compact" />
 
-                                        <NumberBox  Width="Auto" Value="{x:Bind MainWindowViewModel.Cseconds, Mode=TwoWay}" 
+                                        <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.Cseconds, Mode=TwoWay}" 
                                                Minimum="-90" Maximum="90" SpinButtonPlacementMode="Compact" />
 
                                     </StackPanel>
-                                    <StackPanel Orientation="Horizontal" Spacing="15">
-                                        <TextBlock Width="Auto" VerticalAlignment="Center" Text="Radius (miles)"/>
-                                        <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.Radius, Mode=TwoWay}" 
+                                    <StackPanel Margin="0,0,0,5" Spacing="10" Orientation="Horizontal">
+                                        <TextBlock VerticalAlignment="Center" Text="Radius (miles)"/>
+                                        <NumberBox Value="{x:Bind MainWindowViewModel.Radius, Mode=TwoWay}" 
                                                    Minimum="1" SpinButtonPlacementMode="Compact" />
                                     </StackPanel>
                                 </StackPanel>
@@ -72,10 +71,10 @@
                                 Tag="SearchByDrawRectangle"
                                 PointerPressed="OnDrawingItemClicked">
                             <NavigationViewItem.Content>
-                                <StackPanel Orientation="Vertical" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="2" Padding="15" CornerRadius="8">
+                                <StackPanel Orientation="Vertical" BorderBrush="{ThemeResource SurfaceStrokeColorDefault}" BorderThickness="2" Padding="5" CornerRadius="8">
                                     <TextBlock Text="Rectangle" VerticalAlignment="Center" FontFamily="Arial Black"/>
-                                    <StackPanel Spacing="10" Orientation="Horizontal">
-                                        <TextBlock Text="Corner (dms)" VerticalAlignment="Center" Padding="0,0,7,0"/>
+                                    <StackPanel Margin="0,0,0,5"  Spacing="10" Orientation="Horizontal">
+                                        <TextBlock Padding="0,0,14,0" Text="Corner (dms)" VerticalAlignment="Center"/>
                                         <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.Degrees, Mode=TwoWay}" 
                                                Minimum="-180" Maximum="180" SpinButtonPlacementMode="Compact" />
                                         <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.Minutes, Mode=TwoWay}" 
@@ -84,8 +83,8 @@
                                                 Minimum="0" Maximum="60" SpinButtonPlacementMode="Compact" />
                                     </StackPanel>
 
-                                    <StackPanel Spacing="10" Orientation="Horizontal">
-                                        <TextBlock Text="Opposite (dms)" VerticalAlignment="Center" />
+                                    <StackPanel Margin="0,0,0,5" Spacing="10" Orientation="Horizontal">
+                                        <TextBlock Text="Opposite (dms)" VerticalAlignment="Center"/>
                                         <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.OppositeDegrees, Mode=TwoWay}" 
                                                 Minimum="-180" Maximum="180" SpinButtonPlacementMode="Compact" />
                                         <NumberBox Width="Auto" Value="{x:Bind MainWindowViewModel.OppositeMinutes, Mode=TwoWay}" 

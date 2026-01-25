@@ -12,13 +12,13 @@ namespace WinUIAppNavViewWithUserControlItems
 {
     public sealed partial class MainWindow : Window
     {
-        public MainWindowViewModel MainWindowViewModel { get; }
+        public DrawViewModel MainWindowViewModel { get; }
 
         public MainWindow()
         {
             this.InitializeComponent();
             this.Title = "WinUI 3 MVVM Example";
-            MainWindowViewModel = new MainWindowViewModel();
+            MainWindowViewModel = new DrawViewModel();
             NavView.DataContext = MainWindowViewModel;
         }
 

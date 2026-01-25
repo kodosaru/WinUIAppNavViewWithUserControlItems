@@ -4,7 +4,7 @@ using Serilog;
 
 namespace WinUIAppNavViewWithUserControlItems.ViewModels
 {
-    public partial class MainWindowViewModel : INotifyPropertyChanged 
+    public partial class DrawViewModel : INotifyPropertyChanged 
     {
         // Center Group: Integers 0-60
         private double _cdegrees;
