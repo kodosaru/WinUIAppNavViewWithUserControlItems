@@ -17,7 +17,7 @@ namespace WinUIAppNavViewWithUserControlItems
         public MainWindow()
         {
             this.InitializeComponent();
-            this.Title = "WinUI 3 MVVM Example";
+            this.Title = "Embedding User Control in Navigation View Item";
             MainWindowViewModel = new DrawViewModel();
             NavView.DataContext = MainWindowViewModel;
         }
@@ -84,12 +84,6 @@ namespace WinUIAppNavViewWithUserControlItems
                 {
                     case "MainPage":
                         pageType = typeof(MainPage);
-                        break;
-                    case "CenterRadiusPage":
-                        pageType = typeof(CenterRadiusPage);
-                        break;
-                    case "CornerOppositePage":
-                        pageType = typeof(CornerOppositePage);
                         break;
                 }
 

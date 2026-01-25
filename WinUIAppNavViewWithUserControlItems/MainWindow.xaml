@@ -25,8 +25,6 @@
                 Loaded="NavView_Loaded">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Map" Content="Main Page" Tag="MainPage" />
-                <NavigationViewItem Icon="Map" Content="Center &amp; Radius" Tag="CenterRadiusPage" />
-                <NavigationViewItem Icon="Crop" Content="Corner &amp; Opposite" Tag="CornerOppositePage" />
                 <NavigationViewItem
                     x:Name="SearchByDrawing"
                     AutomationProperties.AutomationId="SearchByDrawing"
